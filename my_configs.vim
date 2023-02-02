@@ -18,6 +18,7 @@ let g:Tlist_Inc_Winwidth=1
 
 nnoremap <silent> <leader>f :CtrlPCurWD<cr>
 nnoremap <silent> <leader>b :CtrlPBuffer<cr>
+let g:ctrlp_max_depth = 100
 
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle"
 let g:rainbow_conf = {
