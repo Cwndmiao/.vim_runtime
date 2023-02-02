@@ -1,5 +1,5 @@
 set nu
-nnoremap <leader>gb :Gblame<cr>
+nnoremap <leader>gb :Git blame<cr>
 set updatetime=100
 set textwidth=100
 set colorcolumn=+1
@@ -19,6 +19,8 @@ let g:Tlist_Inc_Winwidth=1
 nnoremap <silent> <leader>f :CtrlPCurWD<cr>
 nnoremap <silent> <leader>b :CtrlPBuffer<cr>
 let g:ctrlp_max_depth = 100
+let g:ctrlp_max_files = 0
+let g:ctrlp_user_command = 'find %s -type f'
 
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle"
 let g:rainbow_conf = {
